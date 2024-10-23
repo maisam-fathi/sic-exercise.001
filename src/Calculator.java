@@ -12,7 +12,7 @@ public class Calculator {
 
         while (nextCalculation) {
 
-            System.out.println("**********\n");
+            System.out.println("*********\n");
 
             System.out.println("Write first number: ");
             number1 = input.nextDouble();
@@ -38,11 +38,11 @@ public class Calculator {
             } else if (operator.equals("*")) {
                 Result = number1 * number2;
             } else {
-                System.out.println("**********\nError: Input is not correct!");
+                System.out.println("*********\nError: Input is not correct!");
                 continue;
                 //return; //Stop the program if user didn't write correct operator.
             }
-            System.out.println("**********\nResult -> " + number1 + operator + number2 + " = " + Result);
+            System.out.println("*********\nResult -> " + number1 + operator + number2 + " = " + Result);
 
             System.out.println("Do you like to continue? (No => false | Yes => true)");
             nextCalculation = input.nextBoolean();
