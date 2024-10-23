@@ -12,7 +12,7 @@ Entry:2020
 Mia, you are 4 years old.
 
 Bonus:
-In addition, ask the user if it was a birthday this year and adjust the age accordingly.
+In addition, ask the user if it was a birthday this year and adjust ---------------the age accordingly.
 Here's what it might look like in the console:
 Has it been your birthday this year?
 Input: No
