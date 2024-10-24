@@ -32,15 +32,13 @@ public class Calculator {
                     Result = number1 / number2;
                 } else {
                     System.out.println("Divide by 0 is not possible!");
-                    continue;
-                    //return;
+                    continue; //Go back to loop start (while)
                 }
             } else if (operator.equals("*")) {
                 Result = number1 * number2;
             } else {
                 System.out.println("**********\nError: Input is not correct!");
-                continue;
-                //return; //Stop the program if user didn't write correct operator.
+                continue; //Go back to loop start (while)
             }
             System.out.println("**********\nResult -> " + number1 + operator + number2 + " = " + Result);
 
