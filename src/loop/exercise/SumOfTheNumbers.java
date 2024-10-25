@@ -16,14 +16,16 @@ public class SumOfTheNumbers {
         Scanner input = new Scanner(System.in);
 
         int sum = 0;
-        int number = 1;
+        int number;
 
-        System.out.println("Enter the next number or enter 0 to see the result:");
+        System.out.print("Enter a number (Without 0) to start program: ");
+        number = input.nextInt();
 
         while (number != 0){
+            System.out.print("Enter new number to sum (enter 0 to see the result): ");
             number = input.nextInt();
-            sum += number;
+            sum += number; //Shot form for: sum += sum + number
         }
-        System.out.println("The sum of the numbers is equal to " + sum + ".");
+        System.out.println("\nThe sum of the numbers is equal to " + sum + ".");
     }
 }

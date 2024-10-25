@@ -1,6 +1,8 @@
 package tasks.with.numbers;
-//2.	Even or odd number (if-else) The program should check whether the entered number is even or odd.
+//2.	Even or odd number (if-else and Modulo %) The program should check whether the entered number is even or odd.
+
 import java.util.Scanner;
+
 
 public class EvenOrOdd {
     public static void main(String[] args) {

@@ -29,9 +29,11 @@ public class ChristmasTree {
         System.out.println("How wide should your Christmas tree be?");
         wide = input.nextInt();
 
-        while (height > 0){
+        System.out.println("*");
+
+        while (height > 1){
             height--;
-            while (wide > 0) {
+            while (wide > 1) {
                 star = star + "*";
                 System.out.println(star);
                 wide--;
