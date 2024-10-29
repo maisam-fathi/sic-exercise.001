@@ -1,4 +1,4 @@
-package loop.exercise;
+package loop;
 
 public class CountTo20 {
     //1. Count to 20

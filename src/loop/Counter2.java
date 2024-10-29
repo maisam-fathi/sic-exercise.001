@@ -1,4 +1,4 @@
-package loop.exercise;
+package loop;
 
 public class Counter2 {
     public static void main(String[] args) {

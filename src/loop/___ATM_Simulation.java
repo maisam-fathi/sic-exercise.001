@@ -1,8 +1,8 @@
-package loop.exercise;
+package loop;
 
 import java.util.Scanner;
 
-public class ATM_Simulation {
+public class ___ATM_Simulation {
     public static void main(String[] args) {
         /*
         10. ATM simulation

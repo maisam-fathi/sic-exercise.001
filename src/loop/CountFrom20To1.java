@@ -1,4 +1,4 @@
-package loop.exercise;
+package loop;
 
 public class CountFrom20To1 {
     public static void main(String[] args) {

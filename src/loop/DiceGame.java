@@ -1,4 +1,4 @@
-package loop.exercise;
+package loop;
 
 import java.util.Random;
 
