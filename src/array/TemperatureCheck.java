@@ -20,7 +20,9 @@ public class TemperatureCheck {
         for (int i = 0; i < temperatures.length ; i++){
             System.out.print("Enter the temperature of " + (i+1) + "day: ");
             temperatures[i] = scanner.nextDouble();
-
+        }
+        System.out.println();
+        for (int i = 0; i < temperatures.length ; i++){
             if (temperatures[i] < 20){
                 System.out.println("Day "+ (i + 1) +" of the week the weather is cold");
             }else {
