@@ -1,6 +1,6 @@
 package loop.nestedLoops;
 
-public class __CombineStudentProjects {
+public class CombineStudentProjects {
     /*
     Task 3: Combine student projects
     Create a string array students with the names of 4 students (e.g. {"Max", "Anna", "Lukas", "Sophia"}).
@@ -17,5 +17,14 @@ public class __CombineStudentProjects {
      */
     public static void main(String[] args) {
 
+        String[] students = {"Max", "Anna", "Lukas", "Sophia"};
+
+        System.out.println("Student team Possibility");
+
+        for (int i = 0 ; i < students.length; i++){
+            for (int j = i+1; j < students.length; j++){
+                System.out.println(students[i] + " und " + students[j]);
+            }
+        }
     }
 }
