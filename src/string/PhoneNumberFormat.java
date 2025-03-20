@@ -23,9 +23,19 @@ public class PhoneNumberFormat {
                 onlyNumber += c;
             }
         }
+
+        //Possibility 1
         if (onlyNumber.charAt(0) == '0') {
             onlyNumber = "+49" + onlyNumber.substring(1,12);
+        } else {
+            onlyNumber = "+" + onlyNumber;
         }
+
+        //Possibility 2
+        if (onlyNumber.startsWith("0")) {
+            onlyNumber = onlyNumber.replaceFirst("0","+49");
+        }
+
         System.out.println("Phone number with new format: " + onlyNumber);
     }
 }
